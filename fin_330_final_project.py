@@ -85,8 +85,7 @@ st.line_chart(portfolio_returns)
 if not np.isclose(weights.sum(), 1):
     st.error("Weights must sum to 1")
 
-"""## Add these for headers/subheaders for in app ⬇"""
-
+# Add these for headers/subheaders for in app
 # st.subheader("Interpretation")
 # st.write("The portfolio outperformed the benchmark by ...")
 
